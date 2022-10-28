@@ -1,0 +1,56 @@
+@font-face {
+    font-family: CursedTimer;
+    src: url('https://fonts.cdnfonts.com/s/40642/CursedTimerUlil-Aznm.woff') format('woff');
+}
+
+body {
+    margin: 0;
+    background-color: #182747;
+}
+
+button {
+    margin: 0px 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    font-family: 'Verdana';
+    font-size: 40px;
+    text-align: center; 
+} 
+
+.score {
+    color: #F94F6D;
+    font-family: CursedTimer;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 120px;
+    text-align: center;
+    background-color: black;
+    width: 155px;
+    height: 120px;
+    border-radius: 5%;
+    border: solid black;
+    margin: 0px auto 25px; 
+  
+    
+    
+}
+
+.score-btn{
+    background-color: #182747;
+    border: solid #3E6D9C;
+    border-radius: 10%;
+    height: 45px;
+    width: 45px;
+    color: #3E6D9C;
+    font-family: CursedTimer;
+}
+
